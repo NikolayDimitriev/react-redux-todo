@@ -1,0 +1,22 @@
+.calendar {
+  width: 100%;
+  display: flex;
+}
+
+.calendarDay {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+  padding-top: 4px;
+  padding-bottom: 8px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  border-bottom: 1px solid grey;
+}
+
+.activeDay {
+  border-bottom: 3px solid red;
+  transition: border-bottom 0.5s;
+}

@@ -1,0 +1,92 @@
+.overlay {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 20;
+}
+
+.content {
+  background-color: #fff;
+  max-width: 650px;
+  min-width: 500px;
+  max-height: 960px;
+  min-height: 300px;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  color: #333333;
+}
+
+.title {
+  font-size: 20px;
+  line-height: 26px;
+  color: #333333;
+  margin-bottom: 15px;
+  border: 1px solid #9289ff;
+  border-radius: 5px;
+  outline: none;
+  padding: 5px;
+}
+
+.description {
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+  height: 100px;
+  resize: none;
+  outline: none;
+  border: 1px solid #9289ff;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding: 5px;
+}
+
+.deadline {
+  outline: none;
+  width: 35%;
+  padding: 5px 10px;
+  border: 1px solid #9289ff;
+  border-radius: 5px;
+  color: #333333;
+  margin-bottom: 15px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.confirm {
+  border: none;
+  border-radius: 8px;
+  background-color: #9289ff;
+  color: #fff;
+  cursor: pointer;
+  padding: 8px 15px;
+}
+
+.cancel {
+  margin-left: 10px;
+  border: none;
+  background-color: #fff;
+  border: 1px solid #9289ff;
+  color: #9289ff;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 8px 15px;
+}
+
+.invalidInput {
+  border-color: red;
+}

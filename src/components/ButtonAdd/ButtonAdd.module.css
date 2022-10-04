@@ -1,0 +1,43 @@
+.button {
+  width: 100%;
+  display: flex;
+  margin-top: 5px;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  color: #999999;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 10px;
+  outline: none;
+}
+
+.text {
+  flex-grow: 1;
+  font-size: 17px;
+  line-height: 22px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.plus {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.button:hover .plus {
+  color: #fff;
+  background-color: #9289ff;
+}
+
+.button:hover .text {
+  color: #9289ff;
+}

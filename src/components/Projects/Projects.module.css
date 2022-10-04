@@ -1,0 +1,173 @@
+.projects {
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  color: #333333;
+  position: relative;
+}
+
+.projectsHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.projectsButton {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  padding: 0;
+}
+
+.projectsIcon {
+  display: flex;
+  margin-right: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectIconActive {
+  transform: rotate(-90deg);
+}
+
+.projectsAdd {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  outline: none;
+}
+
+.projectsAdd:hover {
+  background-color: #9291ff;
+  color: white;
+}
+
+.projectsIcon {
+  color: #333333;
+}
+
+.title {
+  font-weight: 600;
+}
+
+.list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 10px;
+  max-height: 180px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.itemIcon {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  margin-right: 6px;
+  border-radius: 50%;
+  background-color: #f2f1ff;
+}
+
+.itemName {
+  text-decoration: none;
+  color: inherit;
+  width: 160px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.itemName:hover .itemIcon {
+  background-color: #9289ff;
+}
+
+.itemName:hover .itemText {
+  color: #9289ff;
+}
+
+.listItem:hover .itemDelete {
+  display: flex;
+}
+
+.itemDelete {
+  display: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  flex-shrink: 0;
+}
+
+.modal {
+  position: absolute;
+  top: 25px;
+  left: 60px;
+  z-index: 10;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #9289ff;
+  box-shadow: 5px 5px 5px #9289ff;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  color: #333333;
+}
+
+.input {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #9289ff;
+  border-radius: 5px;
+  outline: none;
+}
+
+.formButtons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.confirm {
+  border: none;
+  border-radius: 5px;
+  background-color: #9289ff;
+  color: #fff;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.cancel {
+  margin-left: 10px;
+  border: none;
+  background-color: #fbfbfb;
+  border: 1px solid grey;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.inputInvalid {
+  border-color: red;
+}

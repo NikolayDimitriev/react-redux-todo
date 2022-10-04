@@ -1,0 +1,110 @@
+.title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+}
+
+.projectHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  position: relative;
+}
+
+.projectTitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  margin: 0;
+}
+
+.commonBtn {
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  color: #333333;
+  display: flex;
+  align-items: center;
+}
+
+.commonBtnIcon {
+  margin-right: 5px;
+}
+
+.taskBoard {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.dndBoard {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.auth {
+  width: 100%;
+  height: 100vh;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #9289ff;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 5px 5px 5px #ddd;
+}
+
+.form {
+  border: 1px solid #9289ff;
+  box-shadow: 5px 5px 5px #9289ff;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  top: 40px;
+  z-index: 10;
+}
+
+.formInput {
+  border: none;
+  outline: none;
+  padding: 0;
+  flex-grow: 1;
+  padding: 5px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  color: #333333;
+  border-radius: 10px;
+}
+
+.buttonSubmit {
+  background-color: #fff;
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0 5px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.inputInvalid {
+  border: 1px solid red;
+}

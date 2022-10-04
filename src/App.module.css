@@ -1,0 +1,17 @@
+.pages {
+  height: 100vh;
+  display: flex;
+}
+
+.board {
+  padding: 30px;
+}
+
+.content {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  padding: 20px;
+  margin-left: 250px;
+  background-color: #f5f5f5;
+}

@@ -1,0 +1,91 @@
+.board {
+  display: flex;
+  flex-grow: 1;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+.boardItem {
+  width: 300px;
+  height: min-content;
+  border: none;
+  border-radius: 20px;
+  padding: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  align-items: flex-start;
+}
+
+.boardItem-1 .todo {
+  background-color: #fff6ca;
+}
+
+.boardItem-2 .todo {
+  background-color: #e1f2ff;
+}
+
+.boardItem-3 .todo {
+  background-color: #e3ffe3;
+}
+
+.boardTitle {
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 10px;
+  flex-shrink: 0;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.todo {
+  width: 100%;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px 0;
+  cursor: grab;
+  background-color: #ebebeb;
+  max-height: 110px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.todoText {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.todoHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  color: red;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.todoBtn {
+  display: none;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #fbfbfb;
+  z-index: 100;
+  outline: none;
+}
+
+.todo:hover .todoBtn {
+  display: flex;
+}

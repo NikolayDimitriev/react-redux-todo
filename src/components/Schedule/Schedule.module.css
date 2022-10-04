@@ -1,0 +1,70 @@
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+}
+
+.icon {
+  width: 35px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: #f2f1ff;
+  margin-right: 8px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconOne {
+  background-image: url("assets/todayIconActive.svg");
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.iconTwo {
+  background-image: url("assets/tomorrowIconActive.svg");
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.iconThree {
+  background-image: url("assets/calendarActive.svg");
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.list__item {
+  margin-bottom: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  line-height: 22px;
+}
+
+.list__item:hover {
+  color: #9289ff;
+}
+
+.list__item:hover .icon {
+  background-color: #9289ff;
+}
+
+.list__item:hover .iconOne {
+  background-image: url("assets/todayIcon.svg");
+}
+
+.list__item:hover .iconTwo {
+  background-image: url("assets/tomorrowIcon.svg");
+}
+
+.list__item:hover .iconThree {
+  background-image: url("assets/calendar.svg");
+}

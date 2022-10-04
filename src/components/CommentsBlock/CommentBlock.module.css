@@ -1,0 +1,84 @@
+.comments {
+  display: flex;
+  flex-direction: column;
+  font-size: 17px;
+  line-height: 22px;
+  color: #333333;
+}
+
+.commentsTitle {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.commentsBlock {
+  height: 150px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+}
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+}
+
+.commentHeader {
+  display: flex;
+}
+
+.commentAuthor {
+  display: inline-block;
+  margin-right: 15px;
+  font-weight: 600;
+}
+
+.commentDate {
+  color: #adadad;
+}
+
+.commentText {
+  font-weight: 400;
+}
+
+.form {
+  border: 1px solid #d6d6d6;
+  border-radius: 10px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.formInput {
+  resize: none;
+  border: none;
+  outline: none;
+  padding: 0;
+  flex-grow: 1;
+  padding: 5px;
+  overflow: hidden;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  color: #333333;
+}
+
+.buttonSubmit {
+  background-color: #fff;
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0 5px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
